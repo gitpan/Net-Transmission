@@ -1,4 +1,4 @@
-#$Id: Transmission.pm 627 2009-10-25 14:07:37Z zag $
+#$Id: Transmission.pm 629 2009-10-25 14:15:07Z zag $
 
 package Net::Transmission;
 
@@ -23,12 +23,12 @@ Transmission is a cross-platform BitTorrent client.
 
 =head1 DESCRIPTION
 
-Net::RTorrent - short way to create tools for rtorrent.
+Net::Transmission - Perl interface to Transmission.
 
 =cut
 
 
-our $VERSION = '0.01_01';
+our $VERSION = '0.01_02';
 my $attrs = {
     _cli       => undef,
 };
